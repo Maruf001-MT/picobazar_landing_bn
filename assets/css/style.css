@@ -1,3 +1,9 @@
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+:root{
+    --primary: #00ff7b;
+}
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -230,7 +236,7 @@ th {
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    font-family: webflow-icons !important;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .w-icon-slider-right:before {
@@ -271,7 +277,7 @@ body {
     color: #333;
     background-color: #fff;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -3540,7 +3546,7 @@ a {
 }
 
 a:hover {
-    color: #e2fd70;
+    color: var(--primary);
 }
 
 ul {
@@ -3823,9 +3829,9 @@ blockquote {
 }
 
 .success-message {
-    color: #e2fd70;
+    color: var(--primary);
     background-color: #0d0d0d;
-    border: 1px solid #e2fd70;
+    border: 1px solid var(--primary);
     border-radius: 8px;
     padding: 1em;
     font-size: 16px;
@@ -3918,7 +3924,7 @@ blockquote {
 }
 
 .rich-text blockquote {
-    color: #e2fd70;
+    color: var(--primary);
     background-image: url("https://assets.website-files.com/64a2d507763883f0f77c7425/64a2d507763883f0f77c748e_Qoute.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -4057,7 +4063,7 @@ blockquote {
     -webkit-background-clip: text;
     background-clip: text;
     margin-top: 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
     font-size: 92px;
     font-weight: 600;
     line-height: 1.3;
@@ -4089,7 +4095,7 @@ blockquote {
 .subscribe-button {
     height: 48px;
     color: #000;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border: 0 solid #000;
     border-radius: 12px;
     flex: none;
@@ -4105,7 +4111,7 @@ blockquote {
 }
 
 .subscribe-button:hover {
-    background-color: #e2fd70;
+    background-color: var(--primary);
 }
 
 .headings-container {
@@ -4214,7 +4220,7 @@ blockquote {
     grid-row-gap: 5px;
     color: #000;
     text-transform: none;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border-radius: 12px;
     flex-direction: row;
     justify-content: center;
@@ -4255,7 +4261,7 @@ blockquote {
 }
 
 .button.transparent:hover {
-    color: #e2fd70;
+    color: var(--primary);
     transform: none;
 }
 
@@ -4336,7 +4342,7 @@ blockquote {
 }
 
 .subscribe-email:focus {
-    border-color: #e2fd70;
+    border-color: var(--primary);
 }
 
 .subscribe-email::-ms-input-placeholder {
@@ -4350,7 +4356,7 @@ blockquote {
 .sg---color-primary {
     width: 235px;
     height: 150px;
-    background-color: #e2fd70;
+    background-color: var(--primary);
 }
 
 .sg---color-primary.secondary-color {
@@ -4437,7 +4443,7 @@ blockquote {
 
 .nav-link:hover,
 .nav-link.w--current {
-    color: #e2fd70;
+    color: var(--primary);
 }
 
 .nav-link.cart-nav-link {
@@ -4505,7 +4511,7 @@ blockquote {
 }
 
 .link {
-    color: #e2fd70;
+    color: var(--primary);
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -4531,7 +4537,7 @@ blockquote {
 }
 
 .link-with-line:hover {
-    color: #e2fd70;
+    color: var(--primary);
 }
 
 .link-color {
@@ -4539,7 +4545,7 @@ blockquote {
 }
 
 .link-color:hover {
-    color: #e2fd70;
+    color: var(--primary);
 }
 
 .link-content {
@@ -4781,7 +4787,7 @@ blockquote {
     min-height: 16px;
     min-width: 18px;
     color: #000;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -4803,7 +4809,7 @@ blockquote {
 }
 
 .news-holder {
-    color: #e2fd70;
+    color: var(--primary);
     background-color: #383e47;
     border-radius: 30px;
     flex-direction: column;
@@ -4924,7 +4930,7 @@ blockquote {
 .green-line {
     width: 1px;
     height: 95%;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     position: absolute;
 }
 
@@ -4966,7 +4972,7 @@ blockquote {
 
 .gradient-text {
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #56d37d, #e2fd70);
+    background-image: linear-gradient(to right, #56d37d, var(--primary));
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -5251,7 +5257,7 @@ blockquote {
 }
 
 .blog-date {
-    color: #e2fd70;
+    color: var(--primary);
     margin-top: 20px;
     margin-bottom: 18px;
     font-size: 16px;
@@ -5537,7 +5543,7 @@ blockquote {
     background-repeat: no-repeat;
     background-size: 0;
     border-style: solid;
-    border-color: #e2fd70;
+    border-color: var(--primary);
     margin-top: 0;
     margin-left: 0;
     transition: background-position .375s, background-color .425s, border-color .425s;
@@ -5549,10 +5555,10 @@ blockquote {
 }
 
 .checkbox.w--redirected-checked {
-    background-color: #e2fd70;
+    background-color: var(--primary);
     background-image: url("https://assets.website-files.com/64a2d507763883f0f77c7425/64a2d507763883f0f77c747e_Check%20Black.svg");
     background-size: 14px;
-    border-color: #e2fd70;
+    border-color: var(--primary);
 }
 
 .checkbox-label {
@@ -5580,7 +5586,7 @@ blockquote {
 }
 
 .simple-link {
-    color: #e2fd70;
+    color: var(--primary);
     text-decoration: none;
 }
 
@@ -6072,7 +6078,7 @@ blockquote {
 
 .submit-button {
     color: #000;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border-radius: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -6111,7 +6117,7 @@ blockquote {
 }
 
 .yellow-text {
-    color: #e2fd70;
+    color: var(--primary);
     font-size: 16px;
     font-weight: 500;
 }
@@ -6135,7 +6141,7 @@ blockquote {
 
 .add-to-cart-button {
     color: #000;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border-radius: 12px;
     justify-content: center;
     padding-top: 12px;
@@ -6214,7 +6220,7 @@ blockquote {
 .tab-link.w--current {
     z-index: 1;
     color: #000;
-    background-color: #e2fd70;
+    background-color: var(--primary);
 }
 
 .collection-item {
@@ -6271,7 +6277,7 @@ blockquote {
 }
 
 .yellow-span-text {
-    color: #e2fd70;
+    color: var(--primary);
 }
 
 .option {
@@ -6338,7 +6344,7 @@ blockquote {
 }
 
 .remove-button {
-    color: #e2fd70;
+    color: var(--primary);
     font-size: 16px;
     font-weight: 500;
     transition-property: opacity;
@@ -6346,7 +6352,7 @@ blockquote {
 
 .remove-button:hover {
     opacity: .8;
-    color: #e2fd70;
+    color: var(--primary);
 }
 
 .medium-size-quantity-text {
@@ -6355,7 +6361,7 @@ blockquote {
 }
 
 .subtotal-text {
-    color: #e2fd70;
+    color: var(--primary);
     font-size: 24px;
 }
 
@@ -6378,7 +6384,7 @@ blockquote {
     min-height: 16px;
     min-width: 18px;
     color: #000;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -6640,7 +6646,7 @@ blockquote {
 
 .link-background-grey {
     z-index: -1;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     border-radius: 8px;
     position: absolute;
     top: 0%;
@@ -7245,7 +7251,7 @@ blockquote {
 .notification-subscribe-box {
     width: 24px;
     height: 24px;
-    background-color: #e2fd70;
+    background-color: var(--primary);
     background-image: url("https://assets.website-files.com/64a2d507763883f0f77c7425/64b13dfc9c30d801c469bf56_Arrow-Black.svg");
     background-position: 50%;
     background-repeat: no-repeat;
@@ -8168,7 +8174,7 @@ blockquote {
     }
     .nav-link.cart-nav-link {
         outline-offset: 0px;
-        outline: 3px #e2fd70;
+        outline: 3px var(--primary);
     }
     .hero-section-secondary {
         min-height: auto;

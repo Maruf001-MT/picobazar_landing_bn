@@ -1356,16 +1356,16 @@
                     $2(brandElement).attr("style", fullScreen ? "display: none !important;" : "");
                 }
 
-                function createBadge() {
-                    var $brand = $2('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs");
-                    var $logoArt = $2("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
-                        marginRight: "8px",
-                        width: "16px"
-                    });
-                    var $logoText = $2("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
-                    $brand.append($logoArt, $logoText);
-                    return $brand[0];
-                }
+                // function createBadge() {
+                //     var $brand = $2('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs");
+                //     var $logoArt = $2("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
+                //         marginRight: "8px",
+                //         width: "16px"
+                //     });
+                //     var $logoText = $2("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
+                //     $brand.append($logoArt, $logoText);
+                //     return $brand[0];
+                // }
 
                 function ensureBrand() {
                     var found = $body.children(namespace);
