@@ -1,10 +1,4 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
+
 
 (() => {
     var __create = Object.create;
@@ -2337,7 +2331,7 @@
             var uncurryThis = require_function_uncurry_this();
             var id = 0;
             var postfix = Math.random();
-            var toString4 = uncurryThis(1.toString);
+            var toString4 = uncurryThis(1 .toString);
             module.exports = function(key) {
                 return "Symbol(" + (key === void 0 ? "" : key) + ")_" + toString4(++id + postfix, 36);
             };
@@ -18430,7 +18424,7 @@
     var require_this_number_value = __commonJS({
         "node_modules/core-js/internals/this-number-value.js" (exports, module) {
             var uncurryThis = require_function_uncurry_this();
-            module.exports = uncurryThis(1.valueOf);
+            module.exports = uncurryThis(1 .valueOf);
         }
     });
 
@@ -18787,7 +18781,7 @@
             var floor = Math.floor;
             var repeat = uncurryThis($repeat);
             var stringSlice = uncurryThis("".slice);
-            var un$ToFixed = uncurryThis(1.toFixed);
+            var un$ToFixed = uncurryThis(1 .toFixed);
             var pow = function(x, n, acc) {
                 return n === 0 ? acc : n % 2 === 1 ? pow(x, n - 1, acc * x) : pow(x * x, n / 2, acc);
             };
@@ -18908,7 +18902,7 @@
             var uncurryThis = require_function_uncurry_this();
             var fails = require_fails();
             var thisNumberValue = require_this_number_value();
-            var un$ToPrecision = uncurryThis(1.toPrecision);
+            var un$ToPrecision = uncurryThis(1 .toPrecision);
             var FORCED = fails(function() {
                 return un$ToPrecision(1, void 0) !== "1";
             }) || !fails(function() {
@@ -18971,7 +18965,7 @@
             var valid = /^[\da-z]+$/;
             var charAt = uncurryThis("".charAt);
             var exec = uncurryThis(valid.exec);
-            var numberToString = uncurryThis(1.toString);
+            var numberToString = uncurryThis(1 .toString);
             var stringSlice = uncurryThis("".slice);
             $2({
                 target: "Number",
@@ -27591,7 +27585,7 @@
             return fetch(uri, options);
         }
         const localCsrvCookie = getLocalCsrfCookie();
-        const requestHeaders = options ? .headers || {};
+        const requestHeaders = options ?.headers || {};
         return new Promise(
             (resolve2, reject2) => {
                 if (hasFetchedCsrfCookie && localCsrvCookie) {
