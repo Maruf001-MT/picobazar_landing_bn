@@ -236,7 +236,7 @@ th {
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: webflow-icons !important;
 }
 
 .w-icon-slider-right:before {
@@ -277,7 +277,7 @@ body {
     color: #333;
     background-color: #fff;
     margin: 0;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -4406,7 +4406,7 @@ blockquote {
 
 .brand-logo {
     height: 100%;
-    max-height: 30px;
+    max-height: 40px;
     max-width: 150px;
     margin-top: 6px;
 }
@@ -6766,11 +6766,11 @@ blockquote {
     font-size: 14px;
     transition-property: box-shadow;
     position: relative;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0), inset 0 -30px 20px rgba(0, 229, 112, .2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0), inset 0 -30px 20px rgba(226, 253, 112, .2);
 }
 
 .button-sales.template:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .2), inset 0 -30px 20px rgba(0, 229, 112, .3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2), inset 0 -30px 20px rgba(226, 253, 112, .3);
 }
 
 .button-sales.template:active {
