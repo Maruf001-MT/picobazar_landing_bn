@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // Check if the 'agree_terms' checkbox is selected
-    if (isset($_POST['agree_terms']) && $_POST['agree_terms'] == 'on') {
+    if (isset($_POST['Agree']) && $_POST['Agree'] == 'on') {
 
         // Build the email message
         $message = "Full Name: $name\n";
