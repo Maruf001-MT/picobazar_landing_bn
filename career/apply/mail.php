@@ -22,23 +22,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Build the email message
 $message = "
 Job Application Details:
----------------------------------
-Full Name: $name
-Email: $email
-Phone Number: $phone
-Age: $age
-Address: $address
+\r\n ---------------------------------
+\r\n Full Name:". $name .
+"\r\n Email:". $email .
+"\r\n Phone Number:". $phone .
+"\r\n Age:". $age .
+"\r\n Address:". $address .
 
-Professional Experience:
-$experience
+"\r\n \r\n Professional Experience:". $experience .
+"\r\n Skills:". $skills .
 
-Skills:
-$skills
-
-Social Profiles:
-   - LinkedIn: $linkedin
-   - Github: $github
----------------------------------
+"\r\n \r\n Social Profiles:" .
+   "\r\n - LinkedIn:". $linkedin.
+   "\r\n- Github:". $github.
+"\r\n ---------------------------------"
 ";
 
 
