@@ -19,15 +19,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['Agree']) && $_POST['Agree'] == 'on') {
 
         // Build the email message
-        $message = "Full Name: $name\r\n";
-        $message .= "Email: $email\r\n";
-        $message .= "Phone Number: $phone\r\n";
-        $message .= "Age: $age\r\n";
-        $message .= "Address: $address\r\n\r\n";
-        $message .= "Experiences: $experience\r\n";
-        $message .= "Skills: $skills\r\n\r\n";
-        $message .= "LinkedIn Profile: $linkedin\r\n";
-        $message .= "Github Profile: $github\r\n";
+$message = "Job Application Details:\r\n";
+$message .= "---------------------------------\r\n";
+$message .= "Full Name: $name\r\n";
+$message .= "Email: $email\r\n";
+$message .= "Phone Number: $phone\r\n";
+$message .= "Age: $age\r\n";
+$message .= "Address: $address\r\n\r\n";
+$message .= "Professional Experience:\r\n$experience\r\n\r\n";
+$message .= "Skills:\r\n$skills\r\n\r\n";
+$message .= "Social Profiles:\r\n";
+$message .= "   - LinkedIn: $linkedin\r\n";
+$message .= "   - Github: $github\r\n";
+$message .= "---------------------------------\r\n";
+
 
         // Set additional email headers
         $headers = "From: $email" . "\r\n" .
