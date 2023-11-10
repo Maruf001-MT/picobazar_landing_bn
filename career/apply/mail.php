@@ -19,19 +19,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['Agree']) && $_POST['Agree'] == 'on') {
 
         // Build the email message
-$message = "Job Application Details:\r\n";
-$message .= "---------------------------------\r\n";
-$message .= "Full Name: $name\r\n";
-$message .= "Email: $email\r\n";
-$message .= "Phone Number: $phone\r\n";
-$message .= "Age: $age\r\n";
-$message .= "Address: $address\r\n\r\n";
-$message .= "Professional Experience:\r\n$experience\r\n\r\n";
-$message .= "Skills:\r\n$skills\r\n\r\n";
-$message .= "Social Profiles:\r\n";
-$message .= "   - LinkedIn: $linkedin\r\n";
-$message .= "   - Github: $github\r\n";
-$message .= "---------------------------------\r\n";
+// Build the email message
+$message = "
+Job Application Details:
+---------------------------------
+Full Name: $name
+Email: $email
+Phone Number: $phone
+Age: $age
+Address: $address
+
+Professional Experience:
+$experience
+
+Skills:
+$skills
+
+Social Profiles:
+   - LinkedIn: $linkedin
+   - Github: $github
+---------------------------------
+";
+
 
 
         // Set additional email headers
