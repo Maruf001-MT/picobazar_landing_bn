@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "me.marufzisan@gmail.com"; // Replace with your email address
+    $to = "maruf@prozukty.com"; // Replace with your email address
     $subject = "Job Application Submission - Web Developer at PicoBazar";
     
     // Collect and sanitize form data
@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Send the email with error handling
         if (mail($to, $subject, $message, $headers)) {
-            header("Location: thank.html");
+            header("Location: step2.html");
             exit();
         } else {
             echo "Sorry, there was an error sending your application. Please try again later.";
