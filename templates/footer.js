@@ -9,8 +9,8 @@ class FooterTemplate extends HTMLElement {
                     <div class="fade-in-move-on-scroll">
                         <div class="footer-brand-content"><a href="#" class="footer-logo-link"><img src="https://drive.prozukty.com/share/2P7Rv7AJhS4X3fGr" alt="SaaS Webflow Template - Frankfurt - Created by Wedoflow.com and Azwedo.com" class="footer-image"/></a>
                             <div
-                                class="footer-description">Crafted with love️ by <a href="https://azwedo.com?ref=frankfurt" target="_blank" class="link">Azwedo</a> &amp; <a href="https://wedoflow.com?ref=frankfurt" target="_blank" class="link">Wedoflow<br/>‍</a>Powered by <a href="https://webflow.com?ref=wedoflow.com"
-                                    target="_blank" class="link">Webflow</a></div>
+                                class="footer-description">Powered by <a href="https://prozukty.com/"
+                                    target="_blank" class="link">Prozukty</a></div>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ class FooterTemplate extends HTMLElement {
             </div>
         </div>
         <div data-w-id="eb050d0c-cd20-6fbc-5d31-0eaf0a144c87" class="made-by-section">
-            <div class="copyright-text">© Copyright 2023 Frankfurt.  All rights reserved.</div>
+            <div class="copyright-text">© Copyright 2023 PicoBazar.  All rights reserved.</div>
         </div>
     </div>
     </div>
